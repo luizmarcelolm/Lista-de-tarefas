@@ -1,6 +1,6 @@
 - [x] imput para digitar nova tarefa.
 - [x] botão para criar nova tarefa digitada no imput.
-- [] avisar quando não tiver tarefa digitada e tentar criar. 
+- [x] avisar quando não tiver tarefa digitada e tentar criar. 
 - [] tarefas sendo criadas, uma em baixo da outra.
 - [] botão para excliur tarefa.
 - [] botão para indicar tarefa feita.
