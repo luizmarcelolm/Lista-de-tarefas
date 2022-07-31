@@ -2,11 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.text_input.sem_texto {
+.campo_vazio {
     border-color: #f00;
 }
 
-.text_input {
-    border: 1px solid #ccc;
-    outline: none;
+.campo_vazio::placeholder {
+    color: #f00;
 }

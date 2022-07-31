@@ -2,5 +2,6 @@
 - [x] botão para criar nova tarefa digitada no imput.
 - [x] avisar quando não tiver tarefa digitada e tentar criar. 
 - [] tarefas sendo criadas, uma em baixo da outra.
+- [] limpar caixa de texto após criar tarefa.
 - [] botão para excliur tarefa.
 - [] botão para indicar tarefa feita.
