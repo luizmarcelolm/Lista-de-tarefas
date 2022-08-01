@@ -1,90 +1,99 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(fundo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.erro {
-    border: 2px solid red !important;
-}
-
-.erro::placeholder {
-    color: #f00;
-}
-
-.container {
-    background-color: #4682B43B;
-    border-radius: 20px;
-    padding: 30px 40px;
-}
-
-.nova_tarefa_container {
-    padding: 30px 20px;
-    border-radius: 5px;
-    display: flex;
-}
-
-.nova_tarefa_input {
-    flex: 3;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-}
-
-.nova_tarefa_input:focus {
-    outline: none;
-    border-color: #41b843;
-}
-
-.nova_tarefa_button {
-    flex: 1;
-    border-radius: 5px;
-    height: 500;
-    border: none;
-    background-color: #4682B45b;
-    color: white;
-    padding: 12px;
-    margin-left: 12px;
-    cursor: pointer;
-}
-
-.nova_tarefa_button:hover {
-    background-color: #4682B48b;
-    color: white;
-}
-
-.tarefas_container {
-    background: white;
-    padding: 30px 20px;
-    margin-top: 60px;
-    border-radius: 5px;
-    width: 100%;
-}
-
-.tarefa_item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 6px;
-    margin-top: 6px;
-}
-
-.tarefa_item i {
-    color: red;
-}
-
-.concluido {
-    text-decoration: line-through;
-    color: #006400;
-}
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                body {
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: url(fundo.webp);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                /*borda em vermelho, erro ao tentar criar tarefa sem nada digitado*/
+                
+                .erro {
+                    border: 2px solid red !important;
+                }
+                /*texto em vermelho, erro ao tentar criar tarefa sem nada digitado*/
+                
+                .erro::placeholder {
+                    color: #f00;
+                }
+                
+                .container {
+                    background-color: #4682B43B;
+                    border-radius: 20px;
+                    border: 2px solid #4682B48b;
+                    padding: 30px 40px;
+                }
+                
+                .nova_tarefa_container {
+                    padding: 3px 20px;
+                    border-radius: 5px;
+                    display: flex;
+                }
+                
+                .nova_tarefa_input {
+                    flex: 3;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 12px;
+                }
+                
+                .nova_tarefa_input:focus {
+                    outline: none;
+                    border-color: #41b843;
+                }
+                
+                .nova_tarefa_button {
+                    flex: 1;
+                    border-radius: 5px;
+                    height: 500;
+                    border: none;
+                    background-color: #4682B45b;
+                    color: white;
+                    padding: 12px;
+                    margin-left: 12px;
+                    cursor: pointer;
+                }
+                
+                .nova_tarefa_button:hover {
+                    background-color: #4682B48b;
+                    color: white;
+                }
+                
+                .tarefas_container {
+                    background: white;
+                    padding: 30px 20px;
+                    margin-top: 60px;
+                    border-radius: 5px;
+                    width: 100%;
+                }
+                
+                .tarefa_item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 6px;
+                    margin-top: 6px;
+                }
+                
+                .tarefa_item i {
+                    color: red;
+                }
+                
+                .concluido {
+                    text-decoration: line-through;
+                    color: #006400;
+                }
+                
+                @media screen and (max-width: 450px) {
+                    .container {
+                        padding: 8px 8px;
+                    }
+                }

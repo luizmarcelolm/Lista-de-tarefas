@@ -5,4 +5,4 @@
 - [x] limpar caixa de texto após criar tarefa.
 - [x] botão para excliur tarefa.
 - [x] botão para indicar tarefa feita.
-- [] melhorar responsividade
+- [x] melhorar responsividade
